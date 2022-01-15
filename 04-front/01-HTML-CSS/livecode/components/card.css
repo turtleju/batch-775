@@ -1,0 +1,36 @@
+.card {
+  width: 320px;
+}
+
+.card-white {
+  background-color: #fff;
+  padding: 4px;
+}
+
+.card-white-image {
+  height: 120px;
+  background-size: cover;
+}
+
+.card-white-icons {
+  display: flex;
+  color: #787A91;
+  font-family: "Open Sans", "Helvetica", "sans-serif";
+}
+
+.card-white-icons p {
+  margin: 0;
+}
+
+.card .btn {
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.card:hover .btn {
+  opacity: 1;
+}
+
+.card-user {
+  display: flex;
+}
