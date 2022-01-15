@@ -1,0 +1,80 @@
+.dashboard-card {
+  background-color: #FFF;
+  width: 70%;
+  margin: 0 auto;
+  padding: 16px;
+  border-radius: 16px;
+}
+
+.dashboard-card .title {
+  margin-bottom: 8px;
+  font-weight: 700;
+  color: #8946A6;
+}
+
+.dashboard-card p {
+  margin: 0;
+  font-weight: 300;
+}
+
+.number-card {
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F7F7F7;
+  border-radius: 16px;
+
+}
+
+.number-card .number {
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.number-card .description {
+  text-align: center;
+}
+
+.number-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 24px;
+  margin: 24px 0;
+}
+
+.gauge-card {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  margin-bottom: 8px;
+  padding-bottom: 16px;
+  border-bottom: 2px solid #e1dfdf;
+}
+
+.gauge-card:last-child {
+  border: none;
+}
+
+.gauge {
+  display: flex;
+  justify-content: space-between;
+  width: 20%;
+}
+
+.gauge-ok {
+  width: 8px;
+  height: 24px;
+  background-color: #9AE66E;
+}
+
+.gauge-nok {
+  width: 8px;
+  height: 24px;
+  background-color: #92A9BD;
+}
+
+.gauge-card .title {
+  margin-bottom: 0;
+}
